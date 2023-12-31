@@ -1,0 +1,60 @@
+
+@keyframes opacityofpage {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.9;
+    }
+  }
+  
+.alert_box{
+    animation: opacityofpage 0.5s ease-in-out;
+    bottom: 30px;
+    right: 30px;
+    width: 25rem;
+    color: white;
+    position: absolute;
+    height: 5rem;
+    overflow: hidden;
+    box-shadow: 2px 4px 6px #b7b7b7;
+    border: 3px solid transparent;
+    border-bottom-color: white;
+}
+.alert{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 95%;
+    padding: 0px;
+}
+#trueid{
+    background: #2b91f6;
+}
+
+#fasleid{
+    background: rgb(255, 60, 60);
+}
+
+.alert_logo{
+    width: 30%;
+    height: 100%;
+}
+.alert_logo img{
+    width: 100%;
+    height: 100%;
+}
+.alert_msg{
+    margin-left: 10px;
+}
+
+@media (max-width:768px) {
+    .alert_box{
+        width: 15rem;
+        height: 2.5rem;
+        top: 10px;
+        right: 10px;
+    }
+}

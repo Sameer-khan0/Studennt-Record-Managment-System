@@ -1,0 +1,22 @@
+.loadingmain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100dvh;
+    top: 0;
+    width: 100dvw;
+    backdrop-filter: blur(30px);
+  }
+  
+  .loadingimg{
+    width: 90%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .loadingmain img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  

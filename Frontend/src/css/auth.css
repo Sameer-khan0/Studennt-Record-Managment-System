@@ -1,0 +1,75 @@
+.Std_box{
+    width: 100dvw;
+    height: 100dvh;
+    display: grid;
+    place-items: center;
+    position: relative;
+    background-image: linear-gradient(45deg, #9cbbff, #e8c9f5);
+}
+.Std_mbox{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 60%;
+    border: 5px solid transparent;
+    border-top-color: rgb(0, 157, 255);
+    box-shadow: 3px 6px 12px rgb(42, 42, 42);
+    transition: transform 0.3s ease-in-out;
+}
+.Std_mbox:hover{
+    transform: scale(1.01);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.Std_logo{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Std_logo img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.sauth_inputs{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sauth_inputs input{
+    padding: 5px;
+    height: 15%;
+    font-size: medium;
+}
+
+#ssbtn{
+    border: 1px solid transparent;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    font-weight: 300;
+    height: 20%;
+}
+#ssbtn:hover{
+    background-color: rgb(0, 102, 255);
+}
+
+@media (max-width:768px) {
+    .Std_mbox{
+        width: 50%;
+        height: 50%;
+    }    
+    .sauth_inputs input{
+        font-size: smaller;
+    }
+}

@@ -1,0 +1,132 @@
+
+.main_box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(45deg, #9cbbff, #e8c9f5);
+}
+
+a{
+  text-decoration: none;
+  color: initial;
+}
+
+.ptl{
+  width: 35%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ptl img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.ptl_box {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-shadow: 2px 4px 6px gray;
+  border-radius: 1rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.ptl_box:hover{
+  transform: scale(1.05);
+}
+
+.box_content {
+  width: 90%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center; 
+}
+
+.ptl_box_img {
+  width: 90%;
+  height: 60%;
+}
+
+.box_txt {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.main_page_gif {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: start;
+}
+
+.main_page_gif img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+}
+
+.box_btn {
+  width: 8em;
+  height: 3em;
+  border: 1px transparent;
+  color: white;
+  border-radius: 2rem;
+}
+.box_btn:hover{
+  font-weight: 300;
+  color: white;
+  background: gray;
+}
+
+#tea {
+  background: #cd87de;
+  transition: background-color 0.2s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+}
+#tea:hover{
+  background-color: #f422ed;
+  transform: scale(1.05);
+}
+#std {
+  background: #42c2fd;
+  transition: background-color 0.2s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+}
+
+#std:hover {
+  transform: scale(1.05);
+  background-color: rgb(0, 106, 255);
+}
+
+
+@media (max-width: 768px) {
+  .MH {
+    font-size: 2rem;
+  }
+
+  .ptl{
+    width: 50%;
+  }
+
+  .box_txt {
+    font-size: 1rem;
+  }
+
+  .box_content {
+    text-align: center;
+  }
+
+  .main_page_heading {
+    flex-direction: column-reverse;
+  }
+}
