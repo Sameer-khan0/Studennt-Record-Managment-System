@@ -1,7 +1,7 @@
 # Student Record Management System
 
 ## Overview
-This project is a full-stack student record management system designed to manage student information in an educational institution. It provides functionality for administrators to add, update, and delete student records, as well as view student details and generate reports.
+This project is a full-stack student record management system designed to manage student information in an educational institution. It provides functionality for administrators to add, update, and delete student records, as well as view student details and generate reports. 
 
 ## Features
 - Add new student records with details such as name, ID, date of birth, grade, etc.
